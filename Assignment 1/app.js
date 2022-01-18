@@ -16,7 +16,7 @@ function LunchCheckController($scope) {
   };
 
   $scope.lunchResult = function () {
-    if($scope.lunchItems == 0 || $scope.food == ""){return ""
+    if($scope.lunchItems == 0 || $scope.food == ""){return "Please enter data first"
   }else{
     if($scope.lunchItems > 0 & $scope.lunchItems <=3){
       return "Enjoy!"
